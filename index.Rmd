@@ -1,0 +1,21 @@
+---
+title: "finalproject.html"
+description: |
+  This is my final project.
+site: distill::distill_website
+---
+
+The cars that people buy vary heavily on their needs and preferences. The following data was pulled from Kaggle datasets. It was then imported into RStudio to give viewers a look at the data. As you can see, the type of used vehicles bought from an auction is based on price, efficiency, and preference.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(readr)
+library(tidyverse)
+```
+
+
+```{r}
+read_csv("USA_cars_datasets.csv")
+```
+
+
+
