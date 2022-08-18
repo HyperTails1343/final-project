@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About",
+      "description": "This website.",
+      "author": [],
+      "contents": "\r\nAbout Me\r\nHi! My name is Melvin Agbai. I am 14 years of age, and I really enjoy\r\nthis class. If you need to contact me, my email is info.dealsplaza.com.ng@gmail.com\r\nAbout the Project\r\nThe main purpose of this project is to tell you why people choose\r\ncertain cars of certain makes, models, years, and prices.\r\nReferences\r\nKane’s Free Data Science\r\nBootcamp\r\nMy\r\nrepo\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-17T20:46:52-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "finalproject.html",
+      "description": "This is my final project.\n",
+      "author": [],
+      "contents": "\r\nThe cars that people buy vary heavily on their needs and preferences.\r\nThe following data was pulled from Kaggle datasets. It was then imported\r\ninto RStudio to give viewers a look at the data. As you can see, the\r\ntype of used vehicles bought from an auction is based on price,\r\nefficiency, and preference.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-17T20:47:10-04:00"
+    }
+  ],
+  "collections": []
+}

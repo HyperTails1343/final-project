@@ -14,7 +14,13 @@ library(tidyverse)
 
 
 ```{r}
-read_csv("USA_cars_datasets.csv")
+cars <- read_csv("USA_cars_datasets.csv")
+cars |>  select(brand, price) |> 
+  slice(1:35) |> 
+  ggplot(mapping = aes(x = brand, y = price))+
+  geom_point(alpha = 0.5)+
+  labs(title = "Correlation of Car Brands and Prices")
+  
 ```
 
 

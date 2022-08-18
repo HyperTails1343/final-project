@@ -1,0 +1,20 @@
+---
+title: About
+description: |
+  This website.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About Me
+Hi! My name is Melvin Agbai. I am 14 years of age, and I really enjoy this class.
+If you need to contact me, my email is info.dealsplaza.com.ng@gmail.com
+
+## About the Project
+The main purpose of this project is to tell you why people choose certain cars of certain makes, models, years, and prices.
+
+## References
+- [Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info/)
+- [My repo](https://github.com/HyperTails1343/final-project)
