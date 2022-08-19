@@ -1,5 +1,5 @@
 ---
-title: "finalproject.html"
+title: "Final Project"
 description: |
   This is my final project.
 site: distill::distill_website
@@ -10,6 +10,7 @@ The cars that people buy vary heavily on their needs and preferences. The follow
 knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(tidyverse)
+library(ggthemes)
 ```
 
 
@@ -19,7 +20,8 @@ cars |>  select(brand, price) |>
   slice(1:35) |> 
   ggplot(mapping = aes(x = brand, y = price))+
   geom_point(alpha = 0.5)+
-  labs(title = "Correlation of Car Brands and Prices")
+  theme_classic()
+  labs(title = "Correlation of Car Brands and Prices", subtitle = "People buy different brands for different prices.", caption = "Kaggle (some year idk)")
   
 ```
 
